@@ -1,0 +1,39 @@
+#app {
+  display: flex !important;
+  height: 100%;
+  width: 100%;
+
+  .image-background {
+    height: auto;
+    object-fit: cover;
+    max-width: 40%;
+  }
+
+  #content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: 12px;
+    overflow: hidden;
+    width: 100%;
+
+    #outlet-container {
+      flex: 3;
+    }
+
+    #footer {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  /*@media (max-width: 600px) {
+    flex-direction: column;
+    overflow: auto;
+
+    .image-background {
+      max-width: 100%;
+
+    }
+  }*/
+}

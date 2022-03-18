@@ -1,0 +1,28 @@
+@import'src/styles';
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0 5vw;
+
+  /*@media (max-width: 600px) {
+    margin: 0;
+  }*/
+
+  .title, .tagline {
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 84px;
+    left: -5px;
+    position: relative;
+  }
+
+  .about-me {
+    max-width: 540px;
+  }
+}
+

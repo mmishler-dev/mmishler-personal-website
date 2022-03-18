@@ -1,0 +1,8 @@
+<mat-toolbar>
+  <span class="logo">M</span>
+  <div class="dark-mode-container">
+    <mat-icon>brightness_7</mat-icon>
+    <mat-slide-toggle [checked]="false" (change)="darkModeStateChange($event)"></mat-slide-toggle>
+    <mat-icon>brightness_2</mat-icon>
+  </div>
+</mat-toolbar>

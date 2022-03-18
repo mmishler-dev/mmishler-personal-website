@@ -1,0 +1,17 @@
+.links-container {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+
+  ul {
+    flex: 1;
+
+    li {
+      padding-bottom: 6px;
+
+      mat-icon {
+        font-size: 30px !important;
+      }
+    }
+  }
+}
